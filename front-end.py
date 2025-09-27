@@ -5,7 +5,7 @@ import os
 BACKEND_URL = os.environ.get("BACKEND_URL")
 
 st.set_page_config(page_title="Dynamic AI Agent with Web Search", page_icon="🤖", layout="wide")
-st.title("🤖 Dynamic AI Agent with Web Search")
+st.title("🤖 Dynamic AI Agent with Web")
 st.write(" Create and Interact with the AI Agents!")
 
 # Sidebar settings
