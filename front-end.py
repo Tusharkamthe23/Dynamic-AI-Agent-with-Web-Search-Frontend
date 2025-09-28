@@ -57,3 +57,4 @@ if user_input := st.chat_input("Type your message..."):
     st.session_state["messages"].append({"role": "assistant", "content": ai_response})
     with st.chat_message("assistant"):
         st.markdown(ai_response)
+st.write("Build by Mr.Tushar Kamthe")
