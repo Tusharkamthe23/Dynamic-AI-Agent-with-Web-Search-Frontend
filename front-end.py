@@ -18,7 +18,7 @@ model_name = st.sidebar.selectbox(
 )
 allow_search = st.sidebar.checkbox("Enable Web Search", value=False)
 system_prompt = st.sidebar.text_area("System Prompt", "Act as an AI chatbot who is smart and friendly")
-
+Build by Mr.Tushar Kamthe
 # Chat session state
 if "messages" not in st.session_state:
     st.session_state["messages"] = []
@@ -57,4 +57,4 @@ if user_input := st.chat_input("Type your message..."):
     st.session_state["messages"].append({"role": "assistant", "content": ai_response})
     with st.chat_message("assistant"):
         st.markdown(ai_response)
-st.write("Build by Mr.Tushar Kamthe")
+
