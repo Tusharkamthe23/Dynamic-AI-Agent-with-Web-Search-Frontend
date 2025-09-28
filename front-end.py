@@ -14,9 +14,9 @@ st.sidebar.header("⚙️ Settings")
 model_provider = st.sidebar.selectbox("Model Provider", ["Groq", "OpenAI"])
 model_name = st.sidebar.selectbox(
     "Model Name",
-    ["llama3-70b-8192", "mixtral-8x7b-32768", "llama-3.3-70b-versatile", "gpt-4o-mini"]
+    ["llama-3.1-8b-instant", "meta-llama/llama-guard-4-12b", "llama-3.3-70b-versatile", "gpt-4o-mini","openai/gpt-oss-120b","openai/gpt-oss-20b","groq/compound","groq/compound-mini"]
 )
-allow_search = st.sidebar.checkbox("Enable Web Search", value=False)
+allow_search = st.sidebar.checkbox("Enable Web Search", value=False)"
 system_prompt = st.sidebar.text_area("System Prompt", "Act as an AI chatbot who is smart and friendly")
 
 # Chat session state
