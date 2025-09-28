@@ -18,7 +18,7 @@ model_name = st.sidebar.selectbox(
 )
 allow_search = st.sidebar.checkbox("Enable Web Search", value=False)
 system_prompt = st.sidebar.text_area("System Prompt", "Act as an AI chatbot who is smart and friendly")
-Build by Mr.Tushar Kamthe
+st.write("Build by Mr.Tushar Kamthe")
 # Chat session state
 if "messages" not in st.session_state:
     st.session_state["messages"] = []
